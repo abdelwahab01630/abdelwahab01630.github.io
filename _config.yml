@@ -3,8 +3,7 @@ title: My Personnal Website
 url: "http://abdelwahab01630.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
-description: >
-  Hi! welcome to my blog. Here, you can find my publications and more about my interresting personnality.
+description: "Hi! welcome to my blog. Here, you can find my publications and more about my interesting personnality."
 
 # Your information
 email: mahamat.azibert@aims.ac.rw
