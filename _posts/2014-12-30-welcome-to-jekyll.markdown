@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll and EasyBook"
+title:  "Welcome to my personnal webpage"
 date:   2014-12-30 09:00:13
 categories: jekyll update
 permalink: /archivers/hello
@@ -18,8 +18,8 @@ GitHub Flavored Markdown is supported.
 def print_hi(name)
   puts "Hi, #{name}"
 end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+print_hi('Mahamat')
+#=> prints 'Hi, Mahamat' to STDOUT.
 ```
 
 And $$\mathcal{ Mathematics }$$ is supported!
