@@ -1,6 +1,6 @@
 # Site settings
 title: Mahamat Azibert ABDELWAHAB
-url: "http://abdelwahab01630.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+url: "https://abdelwahab01630.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: "Hi! welcome to my blog. Here, you can find my publications and more about my interesting personnality."
@@ -15,7 +15,6 @@ github_username:  abdelwahab01630
 profile_links:
   Email: "mailto:mahamat.azibert@aims.ac.rw"
   Linkedin : "https://www.linkedin.com/in/mahamat-azibert-abdelwahab-1983951b7"
-  GitHub: "https://github.com/abdelwahab01630"
   # You can add more profile links above, or edit _includes/sidebar.html 
 
 # Comment Service (Disqus or 多说)
