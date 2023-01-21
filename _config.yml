@@ -3,7 +3,11 @@ title: Mahamat Azibert ABDELWAHAB
 url: "https://abdelwahab01630.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
 baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
-description: "Hi! welcome to my blog. Here, you can find my publications and more about my interesting personnality."
+description: "Welcome to my personal website! My name is [Name] and I am a [profession/area of expertise]. On this site, you'll find information about my background, experience, and skills. I also share my thoughts and insights on the latest trends and developments in my field through my blog.
+
+This website is also a portfolio of my work and achievements, you'll find examples of my projects, papers, and publications.
+
+I hope that you find this site informative and useful. If you have any questions or just want to say hello, please feel free to reach out to me via the contact page. Thanks for visiting!"
 
 # Your information
 email: mahamat.azibert@aims.ac.rw
