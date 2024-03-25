@@ -309,7 +309,7 @@ layout: default
   </section><!-- End Resume Section -->
 
   <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio section-bg">
+  <!-- <section id="portfolio" class="portfolio section-bg">
     <div class="container">
 
       <div class="section-title">
@@ -423,7 +423,7 @@ layout: default
       </div>
 
     </div>
-  </section><!-- End Portfolio Section -->
+  </section>End Portfolio Section -->
 
   <!-- ======= Articles Section ======= -->
   <section id="news" class="services">
@@ -431,52 +431,46 @@ layout: default
 
       <div class="section-title">
         <h2>News</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-      </div>
-
-      <a class="rss-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS Feed</a>
-<h1 class="page-heading">Welcome!</h1>
-  <div class="post-meta">
-    Meet Mahamat, a data scientist with a passion for Cybersecurity. This website is your one-stop shop to learn about my journey and expertise. Explore his background, experience, and the skills that make him a valuable asset. Stay up-to-date with the latest trends through his insightful blog. Looking for proof of Mahamat's capabilities? Dive into a compelling portfolio showcasing projects, papers, and publications - a testament to his achievements. Ready to connect?  Get in touch via the contact page - Mahamat Azibert Abdelwahab welcomes questions and friendly hellos!
-  </div>
-
-<h1 class="page-heading">Articles</h1>
-
-<ul class="post-list">
-  {% for post in paginator.posts %}
-    <li>
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-      
-      <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
-
-      <div class="post-excerpt">
-        {%   if post.content contains site.excerpt_separator or post.content != post.excerpt %}{{ post.excerpt }}
-        {%   else %}{{ post.content | lstrip | split: "
-" | first }}{% endif %}
         <p>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More &raquo;</a>
+          Meet Mahamat, a data scientist with a passion for Cybersecurity. This website is your one-stop shop to learn about my journey and expertise. Explore his background, experience, and the skills that make him a valuable asset. Stay up-to-date with the latest trends through his insightful blog. Looking for proof of Mahamat's capabilities? Dive into a compelling portfolio showcasing projects, papers, and publications - a testament to his achievements. Ready to connect?  Get in touch via the contact page - Mahamat Azibert Abdelwahab welcomes questions and friendly hellos!
         </p>
       </div>
-    </li>
-  {% endfor %}
-</ul>
 
-<!-- Pagination links -->
-<div class="pagination">
-{% if paginator.previous_page %}
-  <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">PREV</a>
-{% else %}
-  <span class="previous">PREV</span>
-{% endif %}
-<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
-{% if paginator.next_page %}
-  <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">NEXT</a>
-{% else %}
-  <span class="next ">NEXT</span>
-{% endif %}
-</div>
+      <ul class="post-list">
+        {% for post in paginator.posts %}
+          <li>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+            
+            <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+
+            <div class="post-excerpt">
+              {%   if post.content contains site.excerpt_separator or post.content != post.excerpt %}{{ post.excerpt }}
+              {%   else %}{{ post.content | lstrip | split: "
+      " | first }}{% endif %}
+              <p>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More &raquo;</a>
+              </p>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <!-- Pagination links -->
+      <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous">PREV</a>
+      {% else %}
+        <span class="previous">PREV</span>
+      {% endif %}
+      <span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">NEXT</a>
+      {% else %}
+        <span class="next ">NEXT</span>
+      {% endif %}
+      </div>
 
     </div>
   </section><!-- End Services Section -->
