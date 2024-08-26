@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "National Institute of Statistics of Rwanda"
-date:   2014-12-30 09:00:13
-categories: jekyll update
-permalink: /archivers/hello
+date:   2023
+categories: Hackathon
+permalink: 
 ---
 
 
