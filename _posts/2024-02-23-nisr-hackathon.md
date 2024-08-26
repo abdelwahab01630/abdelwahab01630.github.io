@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "National Institute of Statistics of Rwanda"
-date:   2023
+date:   2023-02-10 09:00:13
 categories: Hackathon
 permalink: 
 ---
