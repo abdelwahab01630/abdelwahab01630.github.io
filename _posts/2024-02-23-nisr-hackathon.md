@@ -9,7 +9,7 @@ permalink:
 
 # Hackathon Project: Statistical Dashboard
 ## [National Institute of Statistics Rwanda Hackathon 2023 Edition](https://www.statistics.gov.rw/about-us/hackathon-competition-2023-edition)
-![Dashboard Overview](https://github.com/Aksumite-Toumai/NISR-Hackathon/blob/main/demo_gif.gif)
+![Dashboard Overview](https://github.com/Aksumite-Toumai/NISR-Hackathon/blob/main/demo_gif.gif?raw=true)
 ### Team Name: [Aksumite-Toumai](https://github.com/Aksumite-Toumai)
 ### Institution: [African Institute for Mathematical Sciences (AIMS)](https://nexteinstein.org/)
 
