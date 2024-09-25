@@ -1,7 +1,7 @@
 # Site settings
-title: "Mahamat Azibert Abdelwahab"
+title: "Home"
 url: "http://localhost:4000" # "https://abdelwahab01630.github.io"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
-baseurl: "" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
+baseurl: "/mazibert" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: "Meet Mahamat, a data scientist. This website is your one-stop shop to learn about my journey and expertise. Explore his background, experience, and the skills that make him a valuable asset. Stay up-to-date with the latest trends through his insightful blog. Looking for proof of Mahamat's capabilities? Dive into a compelling portfolio showcasing projects, papers, and publications - a testament to his achievements. Ready to connect?  Get in touch via the contact page - Mahamat Azibert Abdelwahab welcomes questions and friendly hellos!"
 
@@ -9,7 +9,7 @@ description: "Meet Mahamat, a data scientist. This website is your one-stop shop
 # email: "mahamat.azibert@aims.ac.rw"
 author: "Mahamat Azibert ABDELWAHAB"
 avatar: "https://github.com/abdelwahab01630/abdelwahab01630.github.io/blob/gh-pages/img/photo.jpg?raw=true"
-profile: Data Scientist
+profile: "Data Scientist"
 twitter_username: "abdewahab_mht"
 github_username:  "abdelwahab01630"
 profile_links:
@@ -19,16 +19,16 @@ profile_links:
 
 # Comment Service (Disqus or 多说)
 #  choose one and un-comment the line to active it
-#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
-#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
+disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+# duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
 excerpt_separator: <!--more-->
 
 header:
   links:             # Links on the header. Link to in-site page with a slash as prefix
     About: /about/
-    Contact: /contact/
-    #Category: /category/
+    Contact: /index.html#contact/
+    Category: /ode/
     #Donate: https://laobubu.net/donate.html
 
 permalink: /archivers/:title
